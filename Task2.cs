@@ -125,7 +125,25 @@ class Program
 
 public class Student
 {
-    public string Name { get; set; }
-    public byte Age { get; set; }
-    public int Grade { get; set; }
+    private string name;
+    private byte age;
+    private int grade;
+
+    public string Name
+    {
+        get { return name; }
+        set { name = value; }
+    }
+
+    public byte Age
+    {
+        get { return age; }
+        set { age = value; }
+    }
+
+    public int Grade
+    {
+        get { return grade; }
+        set { grade = value; }
+    }
 }
